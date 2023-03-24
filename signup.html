@@ -1,0 +1,32 @@
+<!DOCTYPE htlm>
+<head>
+	<title> Sign up</title>
+	<meta charset = "UTF-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+
+<body>
+	<h1> Sign up </h1>
+	<form action="proceesSignup.php" method="post" novalidate>
+		<div>
+			<label for="name"> Name</label>
+			<input type="text" id="name" name="name">
+		</div>	
+	
+		<div>
+			<label for="password"> Password</label>
+			<input type="password" id="password" name="password">
+		</div>
+		<div>
+			<label for="email"> email</label>
+			<input type="email" id="email" name="email">
+		</div>
+		<div>
+			<label for="repeatpassword">Repeat Password</label>
+			<input type="password" id="repeatpassword" name="repeatpassword">
+		</div>
+		
+		<button>Submit</button>
+	</form>
+</body>
+</html>
